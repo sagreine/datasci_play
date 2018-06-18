@@ -1,2 +1,2 @@
 # datasci_play
-learning with a friend, scratch
+learning with a person, scratch
