@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 weight = [4.56,5.22,6.78,7.3,7.5,7.6]
-height = [2,3,4,4,5,6]
+height = [2,3,4,5,6,7]
 #no good.
 #weight2 = weight*2.5
 #print(weight2)
@@ -14,7 +14,7 @@ plt.plot(weight, height)
 #plt.show()
 
 
-plt.xscale('log')
+#plt.xscale('log')
 #plt.scatter(weight, height)
 #plt.show()
 
@@ -25,8 +25,11 @@ plt.hist(height,2)
 
 plt.clf()
 plt.xlabel('height')
-plt.ylabel('population')
+plt.ylabel('weight')
 plt.title('hi jared')
+plt.xticks(height, ["baby", "small", "child", "adult", "senior", "dead"])
+
+
 plt.scatter(height,weight)
 plt.show()
 
