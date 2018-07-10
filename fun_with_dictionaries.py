@@ -1,5 +1,6 @@
 
 import matplotlib.pyplot as plt
+import pandas as pd
 
 weight = [4.56,5.22,6.78,7.3,7.5,7.6]
 players = ["carl", "doug", "bob", "alex", "bill", "adam"]
@@ -24,7 +25,15 @@ print(a_dictionary)
 
 print("drew" in a_dictionary)
 
+d = "precaution"
+print(d.replace("e","-"))
 
-#playcards = dictionary(weight,players)
-#print(playcards)
+blurb = pd.DataFrame(a_dictionary , index=[0])
+print(blurb)
 
+print(2 <= 2)
+
+print("3" < "chris")
+
+print("%" < "^")
+print("%" < "$")
