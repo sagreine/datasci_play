@@ -38,8 +38,24 @@ print("3" < "chris")
 print("%" < "^")
 print("%" < "$")
 
+listyone = ["player one", "player two", "player three"]
+
+for player in listyone :
+    print(player)
 
 
+for index, player in enumerate(listyone) :
+    print("the " + str(index) + "th player is: " + player)
 
+for key, value in a_dictionary.items() :
+   print ("Hello. My key is: " + key + " and my value is: " + str(value))
 
+#for x in np.nditer(numpyarray1) :
+   #print(x)
 
+for label, arow in blurb.iterrows() :
+    print(arow)
+    print(label)
+
+#print(blurb)
+    
